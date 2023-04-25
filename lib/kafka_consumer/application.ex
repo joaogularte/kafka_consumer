@@ -10,6 +10,7 @@ defmodule KafkaConsumer.Application do
     children = [
       # Starts a worker by calling: KafkaConsumer.Worker.start_link(arg)
       # {KafkaConsumer.Worker, arg}
+      KafkaConsumer.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

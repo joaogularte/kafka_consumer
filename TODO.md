@@ -3,3 +3,4 @@
 - Criar dockerfile
 - Criar consumer com o broadway
 - Criar consumer com o erlkafka
+- Criar teste de carga
