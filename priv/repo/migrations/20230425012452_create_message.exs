@@ -11,6 +11,8 @@ defmodule KafkaConsumer.Repo.Migrations.CreateMessage do
 
       add :consumer_type, :string
 
+      add :cycle, :integer
+
       timestamps(type: :utc_datetime)
     end
 
