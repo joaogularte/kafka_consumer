@@ -8,8 +8,6 @@ defmodule KafkaConsumer.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      # Starts a worker by calling: KafkaConsumer.Worker.start_link(arg)
-      # {KafkaConsumer.Worker, arg}
       KafkaConsumer.Repo
     ]
 
